@@ -1,5 +1,9 @@
 /* Estilos generales */
 
+* {
+    color: #2a2b2b;
+}
+
 #mobile-h1 {
     display: none;
 }
