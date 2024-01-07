@@ -107,7 +107,7 @@ nav ul li a:hover {
     color: white;
     font-size: 90px;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
 }
 
 #mobile-h1 {
@@ -160,6 +160,8 @@ hr {
 .product img {
     max-width: 98%;
     height: auto;
+    margin-top: 6px;
+    border-radius: 2%;
 }
 
 .product h3 {
