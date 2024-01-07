@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #FBE6D6;
+    background-color: #e7e0cf;
     overflow-x: hidden;
 }
 
@@ -55,7 +55,7 @@ header {
 /* Estilos para la barra de navegación */
 
 nav {
-    background-color: #2c3e50;
+    background-color: #5e3f2f;
     height: 60px;
     width: 100vw;
     display: flex;
@@ -93,7 +93,7 @@ nav ul li a:hover {
 /* Estilos para el contenido principal */
 
 .hero-section {
-    background-image: url("https://via.placeholder.com/1200x600");
+    background-image: url('./backgroundSoaps.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -117,7 +117,7 @@ nav ul li a:hover {
 hr {
     margin: 0px;
     height: 5px;
-    background-color: #6F8C74;
+    background-color: #2a2b2b;
     border: none;
 }
 
@@ -140,11 +140,17 @@ hr {
 }
 
 .product {
+    display: inline-block;
     width: calc(33.33% - 40px);
     margin: 0 20px 40px;
     text-align: center;
     transition: transform 0.2s ease-in-out;
-    box-shadow: 0px 4px 0px #6F8C74;
+    box-shadow: 5px 5px 3px #5e3f2f;
+    background-color: #9d745a;
+    /*testin*/
+    /*border: 3px solid #fff;
+    border-radius: 10%;*/
+    border-radius: 1.8%;
 }
 
 .product:hover {
