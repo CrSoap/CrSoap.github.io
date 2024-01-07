@@ -1,0 +1,16 @@
+.soap {
+    background: red;
+}
+.soap-image {
+    display: inline-block;
+}
+.soap-image img {
+    width: 500px
+}
+.soap-text {
+    display: inline-block;
+    width: 490px;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+}
