@@ -118,7 +118,7 @@ nav ul li a:hover {
     font-size: 60px;
 }
 
-hr {
+.line {
     margin: 0px;
     height: 5px;
     background-color: #2a2b2b;
