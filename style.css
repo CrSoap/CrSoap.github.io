@@ -192,6 +192,27 @@ footer {
     font-size: 14px;
 }
 
+.footer-uls {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-uls ul {
+    list-style-type: none;
+}
+
+
+.h-li {
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.footer-uls ul li {
+    color: #e6e6e6;
+    margin-bottom: 3px;
+}
+
 @media only screen and (max-width: 500px) {
     .pc-h1 {
         display: none; 
@@ -200,3 +221,4 @@ footer {
         display: block;
     }
 }
+
