@@ -78,7 +78,7 @@ nav {
 
 /*TESTING*/
 nav {
-    transition: all .4s;
+    transition: all .6s;
 }
 nav:hover {
     background-color: #aaa4;
@@ -159,22 +159,22 @@ nav ul li a:hover {
     position: absolute;
     display: inline-block;
     width: 790px;
-    height: 150px;
     bottom: 0;
+    /*background-color: red;*/
+    padding: 0;
 }
 .hero-mini-container h1{
     color: #fff;
     margin: 0;
     text-shadow: 8px 6px 2px rgba(0, 0, 0, 1);
-    font-size: 80px;
+    font-size: 90px;
+    position: relative;
+    top: 20px;
 }
 .hero-mini-container h2 {
     margin: 0;
-    font-size: 32px;
+    font-size: 42px;
     color: #fff;
-    position: relative;
-    top: 25px;
-    left: 10px;
     text-shadow: 8px 6px 2px rgba(0, 0, 0, 1);
 }
 /*End of TESTING*/
@@ -260,3 +260,6 @@ footer {
     }
 }
 
+.cambio-color {
+    background-color: #9d745a;
+}
