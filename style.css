@@ -169,13 +169,14 @@ nav ul li a:hover {
     text-shadow: 8px 6px 2px rgba(0, 0, 0, 1);
     font-size: 90px;
     position: relative;
-    top: 20px;
+    top: 32px;
 }
 .hero-mini-container h2 {
     margin: 0;
     font-size: 42px;
     color: #fff;
     text-shadow: 8px 6px 2px rgba(0, 0, 0, 1);
+    letter-spacing: 2px;
 }
 /*End of TESTING*/
 
@@ -261,5 +262,5 @@ footer {
 }
 
 .cambio-color {
-    background-color: #9d745a;
+    background-color: #5e3f2f !important;
 }
