@@ -1,4 +1,7 @@
 /* Estilos generales */
+.mobile-footer {
+    display: none;
+}
 
 * {
     color: #2a2b2b;
@@ -261,6 +264,29 @@ footer {
 
 @media only screen and (max-width: 400px) {
     /*TESTING*/
+    .pc-footer {
+        display: none;
+    }
+    .mobile-footer {
+        display: block;
+        margin: 0;
+        padding: 10px 0 10px 0;
+    }
+
+    .mobile-footer-uls {
+        height: 100%;
+    }
+
+    .mobile-footer-uls ul{
+        list-style-type: none;
+        margin: 0;
+    }
+    .mobile-footer-uls ul li {
+        color: #e6e6e6;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
     .barra-navegacion li a img{
         width: 32px !important;
         height: 30.7px !important;
