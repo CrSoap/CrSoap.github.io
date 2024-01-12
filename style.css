@@ -264,6 +264,9 @@ footer {
 
 @media only screen and (max-width: 400px) {
     /*TESTING*/
+    body {
+        width: 100vw;
+    }
     .pc-footer {
         display: none;
     }
