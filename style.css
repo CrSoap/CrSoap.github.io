@@ -29,6 +29,7 @@ nav {
 
 .navegation {
     position: relative;
+    width: 100vw;
 }
 
 nav .container {
@@ -252,15 +253,34 @@ footer {
     margin-bottom: 3px;
 }
 
-@media only screen and (max-width: 500px) {
-    .pc-h1 {
-        display: none; 
-    }
-    #mobile-h1 {
-        display: block;
-    }
-}
+
 
 .cambio-color {
     background-color: #5e3f2f !important;
+}
+
+@media only screen and (max-width: 400px) {
+    /*TESTING*/
+    .barra-navegacion li a img{
+        width: 32px !important;
+        height: 30.7px !important;
+    }
+    .barra-navegacion .container ul li a{
+        font-size: 12px;
+    }
+    .barra-navegacion .container ul li {
+        margin: 0 10px;
+    }
+
+    .hero-section .hero-mini-container h1 {
+        font-size: 50px;
+        top:6px;
+    }
+    .hero-section .hero-mini-container h2 {
+        font-size: 28px;
+    }
+
+    .product {
+        width: 100%;
+    }
 }
